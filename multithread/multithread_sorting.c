@@ -122,10 +122,10 @@ void *sorted(void *arg)
 int main(int argc, char **argv){
 	int counter = 0 ;
 	
-	while(counter<6){
-			counter = counter + 1 ;
+	while(counter < 6){
+		counter = counter + 1 ;
 		// initialize the thread 
-		pthread_t thread1, thread2, thread3; 
+		pthread_t thread1, thread2; 
 	
 		int low = 0;
 		int high = LENGTH -1; 
