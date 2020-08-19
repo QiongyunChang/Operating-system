@@ -24,7 +24,7 @@ parameters *data2 = (parameters*) malloc(sizeof(parameters));
 
 void merge(int i, int j)
 {
-	    int narray[j-i+1], nk = 0;
+	int narray[j-i+1], nk = 0;
         int mid = (i+j)/2;
         int k = i;
         int l = mid +1 ;
