@@ -53,7 +53,7 @@ void merge(int i, int j)
 
 void shuffle(int *arr, int min, int max)
 {
-	int size = max-min + 1; // poker size  1000 - 0 + 1 => 1001 
+    int size = max-min + 1; // poker size  1000 - 0 + 1 => 1001 
     int i =0 , p1 = 0, p2 = 0, tmp = 0;
     
  
